@@ -41,10 +41,10 @@ const BottomNav = () => {
   };
   return (
     <div>
-      <div className="btm-nav">
+      <div className="btm-nav btm-nav-lg">
         {}
         <button
-          className={coursesActive ? "active" : ""}
+          className={coursesActive ? "active text-info" : "text-info"}
           onClick={coursesClick}
         >
           <i
@@ -54,7 +54,7 @@ const BottomNav = () => {
           ></i>
         </button>
         <button
-          className={contactsActive ? "active" : ""}
+          className={contactsActive ? "active text-info" : "text-info"}
           onClick={contactsClick}
         >
           <i
@@ -66,7 +66,7 @@ const BottomNav = () => {
           ></i>
         </button>
         <button
-          className={repertoireActive ? "active" : ""}
+          className={repertoireActive ? "active text-info" : "text-info"}
           onClick={repertoireClick}
         >
           <i
@@ -77,7 +77,10 @@ const BottomNav = () => {
             }
           ></i>
         </button>
-        <button className={homeActive ? "active" : ""} onClick={homeClick}>
+        <button
+          className={homeActive ? "active text-info" : "text-info"}
+          onClick={homeClick}
+        >
           <i
             className={homeActive ? "text-cyan-500 fas fa-home" : "fas fa-home"}
           ></i>

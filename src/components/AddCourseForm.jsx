@@ -12,7 +12,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Nom</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 type="text"
                 placeholder="Dupont"
               />
@@ -20,7 +20,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Prénom</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 type="text"
                 placeholder="Jean"
               />
@@ -28,7 +28,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Départ</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 type="datetime-local"
               />
 
@@ -36,7 +36,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Arrivé</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 type="datetime-local"
               />
 
@@ -44,7 +44,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Tel</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 placeholder="+33"
                 type="tel"
               />
@@ -53,7 +53,7 @@ const AddCourseForm = () => {
                 <span className="label-text">email</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 placeholder="jeandupont@gmail.com"
                 type="email"
               />
@@ -62,7 +62,7 @@ const AddCourseForm = () => {
                 <span className="label-text">Prix</span>
               </label>
               <input
-                className="input input-info w-full"
+                className="input input-info input-sm w-full"
                 placeholder="25€"
                 type="number"
               />
