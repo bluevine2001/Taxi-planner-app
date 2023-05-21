@@ -26,7 +26,9 @@ const CoursesList = () => {
   }, []);
   return (
     <div>
-      {loading ? <h1>Loading...</h1> : null}
+      {loading ? (
+        <button className="btn btn-ghost btn-lg loading w-full"></button>
+      ) : null}
 
       {courses.length > 0
         ? courses.map((course) => {
