@@ -186,6 +186,7 @@ const AddCourseForm = (props) => {
                 style={{
                   WebkitAppearance: "textfield",
                   MozAppearance: "textfield",
+                  width: "100%",
                 }}
                 type="datetime-local"
                 onChange={(e) => {
