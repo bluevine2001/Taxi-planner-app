@@ -188,7 +188,7 @@ const AddCourseForm = (props) => {
                   MozAppearance: "textfield",
                   width: "100%",
                 }}
-                type="datetime-local"
+                type="date"
                 onChange={(e) => {
                   handleChange(e);
                 }}
