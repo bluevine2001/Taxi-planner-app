@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { CircleUserRound } from "lucide-react";
 
 const categories = ["Tous", "Patients", "Clients", "Chauffeurs"]; // Les catégories comme dans votre image
 
@@ -102,11 +103,11 @@ const DocumentsView = () => {
         {clients.map((client) => (
           <div
             key={client.id}
-            className="client-item flex w-10/12 mx-auto my-2 justify-between items-center bg-white rounded shadow-xl py-1 px-4"
+            className="client-item flex w-10/12 mx-auto my-2 justify-between items-center bg-slate-800 rounded-lg shadow-xl py-2 px-4"
           >
             <div className="avatar">
-              <div className="w-16 rounded">
-                <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              <div className="rounded-xl">
+                <CircleUserRound size={30} />
               </div>
             </div>
             <div className="client-name px-2">{client.nom}</div>

@@ -145,7 +145,7 @@ const AddCourseForm = (props) => {
 
               <input
                 name="departureDate"
-                className="input input-info input-sm w-full"
+                className="input input-info input-sm w-full arriveDate"
                 type="datetime-local"
                 value={course.departureDate || ""}
                 onChange={(e) => {
@@ -178,7 +178,7 @@ const AddCourseForm = (props) => {
               <input
                 name="arrivalDate"
                 value={course.arrivalDate || ""}
-                className="input input-info input-sm w-full"
+                className="input input-info input-sm w-full arriveDate"
                 type="datetime-local"
                 onChange={(e) => {
                   handleChange(e);

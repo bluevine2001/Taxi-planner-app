@@ -16,3 +16,10 @@
     }
   }
 }
+
+.arriveDate,
+.arriveTime {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

@@ -30,7 +30,7 @@ const AddObjectView = () => {
       {formToUse === "course" && step == 1 ? (
         <div>
           <div className="step1 h-screen items-center flex">
-            <div className="card bg-white w-10/12 mx-auto p-4">
+            <div className="card bg-slate-200 w-10/12 mx-auto p-4">
               <h1 className="card-title text-black my-1 mx-2">
                 Créer une course pour un :
               </h1>
