@@ -23,7 +23,7 @@ const DocumentsView = () => {
           <i className="fas fa-search"></i>
         </button>
       </div>
-      <div className="category-slider w-10/12 mx-auto">
+      <div className="category-slider w-10/12 mx-auto overflow-x-auto whitespace-nowrap">
         {categories.map((category) => (
           <button
             key={category}
@@ -50,7 +50,7 @@ const DocumentsView = () => {
                     <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                   </div>
                 </div>
-                <div className="client-name">{client.nom}</div>
+                <div className="client-name px-2">{client.nom}</div>
                 <button className="details-button btn btn-info">Détails</button>
               </div>
             )
