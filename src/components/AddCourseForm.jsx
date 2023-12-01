@@ -147,6 +147,8 @@ const AddCourseForm = (props) => {
                 name="departureDate"
                 className="input input-info input-sm w-full arriveDate"
                 type="datetime-local"
+                style="-webkit-appearance: textfield;
+                -moz-appearance: textfield;"
                 value={course.departureDate || ""}
                 onChange={(e) => {
                   handleChange(e);
@@ -179,6 +181,8 @@ const AddCourseForm = (props) => {
                 name="arrivalDate"
                 value={course.arrivalDate || ""}
                 className="input input-info input-sm w-full arriveDate"
+                style="-webkit-appearance: textfield;
+                -moz-appearance: textfield;"
                 type="datetime-local"
                 onChange={(e) => {
                   handleChange(e);
