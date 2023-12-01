@@ -103,7 +103,7 @@ const DocumentsView = () => {
         {clients.map((client) => (
           <div
             key={client.id}
-            className="client-item flex w-10/12 mx-auto my-2 justify-between items-center bg-slate-800 rounded-lg shadow-xl py-2 px-4"
+            className="client-item flex w-10/12 mx-auto my-2 justify-between items-center bg-slate-800 text-white rounded-lg shadow-xl py-2 px-4"
           >
             <div className="avatar">
               <div className="rounded-xl">
