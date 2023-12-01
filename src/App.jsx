@@ -8,8 +8,12 @@ import RepertoireView from "./views/RepertoireView";
 import AddView from "./views/AddView";
 import AddObjectView from "./views/AddObjectView";
 import CourseDetailView from "./views/CourseDetailView";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const url = useLocation();
+  let selecttabnav = url.pathname.split("/")[1];
+  //console.log("url: ", url);
   return (
     <div className="">
       <Routes>
@@ -22,7 +26,7 @@ function App() {
         <Route path="/add/:type" element={<AddObjectView />} />
         <Route path="/course/:id" element={<CourseDetailView />} />
       </Routes>
-      <BottomNav />
+      <BottomNav selected={selecttabnav} />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const BottomNav = () => {
-  const [activeTab, setActiveTab] = useState("courses"); // Utilisation d'une seule variable d'état
+const BottomNav = (props) => {
+  const [activeTab, setActiveTab] = useState(props.selected); // Utilisation d'une seule variable d'état
   const navigate = useNavigate();
 
   const tabs = [
