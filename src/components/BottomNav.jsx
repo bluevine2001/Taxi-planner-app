@@ -24,13 +24,13 @@ const BottomNav = () => {
 
   return (
     <div className="">
-      <div className="btm-nav btm-nav-lg">
+      <div className="btm-nav btm-nav-lg bg-slate-800">
         {tabs.map((tab) => (
           <button
             key={tab.name}
-            className={`text-info ${tab.name === activeTab ? "active" : ""} ${
-              tab.extraClass || ""
-            }`}
+            className={`text-info bg-slate-800 ${
+              tab.name === activeTab ? "active" : ""
+            } ${tab.extraClass || ""}`}
             onClick={() => handleTabClick(tab.name, tab.path)}
           >
             <i

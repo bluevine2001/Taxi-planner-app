@@ -15,7 +15,7 @@ const CourseItem = (props) => {
         handleClick(props.course.id);
       }}
     >
-      <div className="card bg-base-100 shadow-xl">
+      <div className="card bg-slate-800 shadow-xl">
         <div className="card-body p-4">
           <div className="flex">
             <div className="hourbox bg-slate-600 w-1/5 h-20 text-center pt-6 mr-2">

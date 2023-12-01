@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import AddCourseForm from "../components/AddCourseForm";
+import AddContactForm from "../components/AddContactForm";
 
 const AddObjectView = () => {
   const { type } = useParams();
@@ -64,7 +65,11 @@ const AddObjectView = () => {
           <AddCourseForm client="new" />
         </div>
       )}
-      {formToUse === "contact" && <div>Formulaire pour ajouter un contact</div>}
+      {formToUse === "contact" && (
+        <div>
+          <AddContactForm />
+        </div>
+      )}
       {formToUse === "document" && (
         <div>Formulaire pour ajouter un document</div>
       )}

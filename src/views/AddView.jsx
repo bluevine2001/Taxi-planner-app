@@ -11,7 +11,7 @@ const AddView = () => {
     <div>
       <h1 className="text-2xl text-center m-2">
         {" "}
-        Que Souhaitez-vous ajouter ?{" "}
+        Que souhaitez-vous ajouter ?{" "}
       </h1>
 
       <div

@@ -37,7 +37,7 @@ const AddCourseForm = (props) => {
   return (
     <div>
       <div className="flex justify-center m-2">
-        <div className="mb-20">
+        <div className="mb-20 w-10/12">
           <form>
             <div className="form-group">
               {props.client === "new" ? (
